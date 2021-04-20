@@ -1,3 +1,14 @@
+@import 'vars';
+
 body {
-  background-color: darkolivegreen;
+  margin: 0;
+  background-color: var(--bg-color-dark);
+}
+
+.container {
+  padding:  0 16px;
+  box-sizing: border-box;
+  max-width: 1110px;
+  width: 100%;
+  background-color: red;
 }
